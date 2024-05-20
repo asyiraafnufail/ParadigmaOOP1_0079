@@ -21,3 +21,10 @@ class Mahasiswa
             cout << "Nilai  = " << nilai << endl;
         }
 };
+
+int main()
+{
+    Mahasiswa mhs(12, "Asroni", 90.5);
+
+    return 0;
+}
