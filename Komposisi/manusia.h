@@ -14,7 +14,7 @@ class manusia
             cout << name << "hidup\n";
         }
 
-        ~manusia(string pName) : name(pName)
+        ~manusia()
         {
             cout << name << "mati\n";
         }
